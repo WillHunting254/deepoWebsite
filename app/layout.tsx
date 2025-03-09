@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="bumblebee">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex justify-center items-center`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex justify-center items-center text-sm py-0 md:min-w-[610px] xl:min-w-[1224px] 2xl:min-w-[1223px]`}
       >
         {children}
       </body>

@@ -1,0 +1,38 @@
+{
+  "node": {
+    "00fec974bdd792264b71353115d2b6e918bc817d41": {
+      "workers": {
+        "app/product/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/product/page": "action-browser",
+        "app/page": "action-browser"
+      }
+    },
+    "6013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8": {
+      "workers": {
+        "app/product/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/product/page": "action-browser",
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "lo01waOqAaWUcRaeFXCaCoePwGLs8I0wVgUAilumOyI="
+}

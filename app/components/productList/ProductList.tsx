@@ -1,26 +1,44 @@
+'use client'
 import React from 'react'
 import ProductCard from '../ProductCard'
 import properties from '@/app/properties'
+import { categoryStore } from '../store/category'
 
 interface Product {
-  imageName: string,
+  _id: string,
+  imageName: string[],
   price: number,
   description: string,
   articleCode: string,
-  imageUrl: string,
-  title: string
+  imageUrl: string[],
+  title: string,
+  isAvailable: boolean,
+  quantity: number,
+  category: string
 }
 
-const ProductList = async () => {
+interface ProductListProps {
+  products: Product[];
+  isAuthenticated: boolean;
+}
 
-  const data = await fetch(properties.baseUrl + "/api/products")
-  const products : Product[] = await data.json();
+
+
+const ProductList = ({products, isAuthenticated}: ProductListProps) => {
+  const category = categoryStore((state) => state.category)
+  const filteredProducts = category === "Alle" 
+  ? products : products.filter(product => product.category === category)
+
   return (
-    <div className='grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center items-center'>
-      {products.map((product) => (
-        <ProductCard key={product.imageName} price={product.price} description={product.description} articleCode={product.articleCode} imageUrl={product.imageUrl} title={product.title} />
+    <div className='md:min-w-[610px] xl:min-w-[1224px] 2xl:min-w-[1223px]'>
+      
+    
+    <div className='grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 justify-center items-center'>
+      {filteredProducts.map((product) => (
+        <ProductCard key={product._id} product={product} isAuthenticated={isAuthenticated} />
       ))}
       
+    </div>
     </div>
   )
 }
