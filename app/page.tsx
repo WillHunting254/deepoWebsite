@@ -33,11 +33,11 @@ export default async function Home() {
   const cookie = (await cookies()).get('session')?.value;
   const session = await decrypt(cookie);
 
-  const data = await fetch(properties.devProductsUrl);
+  const data = await fetch(properties.productsUrl);
   const products : Product[] = await data.json();
   const newProduct = products[0];
 
-  const dataCategories = await fetch(properties.devCategoriesUrl);
+  const dataCategories = await fetch(properties.categoriesUrl);
   const categories : Category[] = await dataCategories.json();
   return (
     <main>

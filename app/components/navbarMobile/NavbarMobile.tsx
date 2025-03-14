@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import LogoutButton from '../logoutButton/LogoutButton';
 import SearchBar from '../searchBar/SearchBar';
+import SearchSection from '../searchSection/SearchSection';
 
 
 const NavbarMobile = async () => {
@@ -12,14 +13,14 @@ const NavbarMobile = async () => {
 
   return (
     <div>
-      <div className="navbar bg-primary absolute left-0 min-h-12 hidden md:flex">
+      <div className="navbar bg-primary absolute left-0 min-h-16 flex">
 
       </div>
     <div className='flex justify-between items-center bg-primary z-10 relative text-primary-content w-full'>
       <div>
         <Link href={'/'}><h1 className='px-4 text-xl font-bold'>Deepo</h1></Link>
     </div>
-      <SearchBar/>
+      <SearchSection/>
       {session !== undefined ?
       <LogoutButton/> :
     <Link className="btn btn-sm btn-primary m-2" href={'/login'}>

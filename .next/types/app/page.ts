@@ -1,4 +1,4 @@
-// File: /Users/karma/Documents2/deepoWebsite/app/page.tsx
+// File: /Users/karma/Projects/deepoWebsite/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

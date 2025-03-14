@@ -1,35 +1,35 @@
 {
   "node": {
-    "00fec974bdd792264b71353115d2b6e918bc817d41": {
+    "00dec562f60b98fe5d37688c701957e97b0493c594": {
       "workers": {
-        "app/product/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FProjects%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200dec562f60b98fe5d37688c701957e97b0493c594%22%2C%22logout%22%5D%2C%5B%2260bc2b19075f1195b3a3a7760f3bf69859740fc53f%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/product/[id]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FProjects%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200dec562f60b98fe5d37688c701957e97b0493c594%22%2C%22logout%22%5D%2C%5B%2260bc2b19075f1195b3a3a7760f3bf69859740fc53f%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/product/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/product/[id]/page": "action-browser"
       }
     },
-    "6013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8": {
+    "60bc2b19075f1195b3a3a7760f3bf69859740fc53f": {
       "workers": {
-        "app/product/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FProjects%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200dec562f60b98fe5d37688c701957e97b0493c594%22%2C%22logout%22%5D%2C%5B%2260bc2b19075f1195b3a3a7760f3bf69859740fc53f%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FDocuments2%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200fec974bdd792264b71353115d2b6e918bc817d41%22%2C%22logout%22%5D%2C%5B%226013abefaeb7fa1a4bbb3eccf66aebbd63c19cbda8%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
+        "app/product/[id]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fkarma%2FProjects%2FdeepoWebsite%2Fapp%2Factions%2Fauth.ts%22%2C%5B%5B%2200dec562f60b98fe5d37688c701957e97b0493c594%22%2C%22logout%22%5D%2C%5B%2260bc2b19075f1195b3a3a7760f3bf69859740fc53f%22%2C%22signup%22%5D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/product/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/product/[id]/page": "action-browser"
       }
     }
   },

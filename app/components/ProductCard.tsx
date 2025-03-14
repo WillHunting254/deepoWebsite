@@ -25,10 +25,7 @@ const ProductCard = (props:Props) => {
   
   const product: Product = props.product
   return (
-    <Link href={{
-      pathname: '/product',
-      query:{ id: product._id,
-      }}}>
+    <Link href={`/product/${product._id}`}>
     <div className="card card-compact bg-base-100 rounded-sm shadow-xl h-68 w-full md:w-[300px]">
       <figure style={{ marginTop:30, height:140}}>
         <Image src={product.imageUrl[0]} width={140} height={140} alt='product' style={{objectFit:'contain'}}/>
